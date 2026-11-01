@@ -3,8 +3,6 @@ import dotenv from "dotenv";
 import connectDB from "./src/DB/Connection.js";
 
 dotenv.config({ path: "./.env" });
-console.log("Current directory:", process.cwd());
-console.log("DATABASE_URL:", process.env.DATABASE_URL ? "Found" : "Not Found");
 
 const app = express();
 
